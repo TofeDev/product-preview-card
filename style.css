@@ -104,3 +104,21 @@ p.button {
 button:hover {
     background-color: hsl(158, 51%, 17%);
 }
+
+@media (width <= 375px) {
+    section {
+        display: grid;
+    }
+
+    .img {
+        background-image: url(./images/image-product-mobile.jpg);
+        width: auto;
+        height: 200px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .product {
+        max-width: 300px;
+        border-radius: 0 0 15px 15px;
+    }
+}
